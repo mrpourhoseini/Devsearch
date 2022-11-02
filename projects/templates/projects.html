@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <ol>
+        {% for project in projects %}
+            <li>
+                {{ project.title }}
+                <a style="color: #00f; text-decoration: none" href="{% url 'project' project.id %}"> View</a>
+                <a style="color: #0f0; text-decoration: none" href="{% url 'update-project' project.id %}"> Edit</a>
+                <a style="color: #f00; text-decoration: none" href="{% url 'delete-project' project.id %}"> Delete</a>
+            </li>
+        {% endfor %}
+    </ol>
+
+{% endblock %}
