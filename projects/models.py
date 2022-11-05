@@ -5,6 +5,7 @@ from django.db import models
 class Project(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField(blank=True, null=True)
+    featured_image = models.ImageField(blank=True, null=True, default="default.jpg")
     demo_link = models.CharField(max_length=200, blank=True, null=True)
     source_link = models.CharField(max_length=200, blank=True, null=True)
     tags = models.ManyToManyField('Tag', blank=True)

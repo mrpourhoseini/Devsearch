@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ef0423-b2fd-452c-ad5f-f1199d4ad6f1" name="Changes" comment="" />
+    <list default="true" id="23ef0423-b2fd-452c-ad5f-f1199d4ad6f1" name="Changes" comment="Initial">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/templates/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/templates/project_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/project_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/templates/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/templates/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,13 +27,21 @@
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GrnYR3aIP2vtzod2HF07P0k3Ek" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,10 +52,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/github_projects/dj/core/settings.py&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/github_projects/dj/static/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\github_projects\dj\static\images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="runserver" type="Python.DjangoServer" factoryName="Django server">
       <module name="dj" />
@@ -74,11 +100,47 @@
       <workItem from="1667234432877" duration="2129000" />
       <workItem from="1667321786639" duration="3792000" />
       <workItem from="1667405199471" duration="3766000" />
-      <workItem from="1667409828066" duration="3845000" />
+      <workItem from="1667409828066" duration="4720000" />
+      <workItem from="1667414796689" duration="90000" />
+      <workItem from="1667414924608" duration="24000" />
+      <workItem from="1667415104689" duration="66000" />
+      <workItem from="1667500455389" duration="3638000" />
+      <workItem from="1667572783999" duration="8176000" />
+      <workItem from="1667672424303" duration="2359000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial">
+      <created>1667413800301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667413800301</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial">
+      <created>1667413877210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667413877210</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
 </project>
