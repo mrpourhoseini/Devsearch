@@ -8,13 +8,13 @@ from .forms import ProjectForm
 def projects_list(request):
     projects = Project.objects.all()
     context = {'projects': projects}
-    return render(request, 'projects.html', context)
+    return render(request, 'projects/projects.html', context)
 
 
 def project(request, pk):
     project_obj = Project.objects.get(id=pk)
     context = {'project': project_obj}
-    return render(request, 'project.html', context)
+    return render(request, 'projects/project.html', context)
 
 
 def create_project(request):
@@ -25,7 +25,7 @@ def create_project(request):
             form.save()
             return redirect('projects')
     context = {'form': form}
-    return render(request, 'project_form.html', context)
+    return render(request, 'projects/project_form.html', context)
 
 
 def update_project(request, pk):
@@ -37,7 +37,7 @@ def update_project(request, pk):
             form.save()
             return redirect('projects')
     context = {'form': form}
-    return render(request, 'project_form.html', context)
+    return render(request, 'projects/project_form.html', context)
 
 
 def delete_project(request, pk):
@@ -46,4 +46,4 @@ def delete_project(request, pk):
         project_obj.delete()
         return redirect('projects')
     context = {'object': project_obj}
-    return render(request, 'delete_project.html', context)
+    return render(request, 'projects/delete_project.html', context)
