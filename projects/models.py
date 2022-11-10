@@ -1,8 +1,10 @@
 from django.db import models
+from users.models import Profile
 
 
 # Create your models here.
 class Project(models.Model):
+    owner = models.ForeignKey(Profile, blank=True, null=True, on_delete=models.SET_NULL)
     title = models.CharField(max_length=200)
     description = models.TextField(blank=True, null=True)
     featured_image = models.ImageField(blank=True, null=True, default="default.jpg")
@@ -11,7 +13,6 @@ class Project(models.Model):
     tags = models.ManyToManyField('Tag', blank=True)
     vote_total = models.IntegerField(default=0, blank=True, null=True)
     vote_ratio = models.IntegerField(default=0, blank=True, null=True)
-    created = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.title
